@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>gęstość</title>
+<meta charset="UTF-8">
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+function oblicz()
+{
+	var m = document.getElementById("m").value;
+	var v = document.getElementById("v").value;
+	var wynik = (m/v)
+	document.getElementById("oblicz").innerHTML = wynik   
+}
+</script>
+
+</head>    
+<body background="bg.png">
+<div id="pudlo">
+<a href="index.html"><img src="button.png" width="200"></a><br><br><br>
+<img src="4.png" width="400"><br>
+	m= 
+	<input type="text" id="m"> <br/>
+
+	v=
+	<input type="text" id="v"><br/>
+
+	<button onclick="oblicz()">oblicz</button><br>
+
+<div id="oblicz"></div>
+
+
+</div>
+</body>
+</html>

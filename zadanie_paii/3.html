@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ruch2</title>
+<meta charset="UTF-8">
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+function oblicz()
+{
+	var s = document.getElementById("s").value;
+	var t = document.getElementById("t").value;
+	var wynik = (s/t)
+	document.getElementById("oblicz").innerHTML = wynik   
+}
+</script>
+
+</head>    
+<body background="bg.png">
+<div id="pudlo">
+<a href="index.html"><img src="button.png" width="200"></a><br><br><br>
+<img src="3.png" width="400"><br>
+	s= 
+	<input type="text" id="s"> <br/>
+
+	t=
+	<input type="text" id="t"><br/>
+
+	<button onclick="oblicz()">oblicz</button><br>
+
+<div id="oblicz"></div>
+
+
+</div>
+</body>
+</html>
